@@ -1,0 +1,77 @@
+*{ 
+    margin : 0 ;
+    padding : 0;
+    box-sizing: none;
+
+}
+@font-face {
+    font-family: Raleway-Regular;
+    src : url("../demo/font/Raleway-Regular.ttf")
+ }
+ @font-face {
+    font-family: Roboto;
+    src : url("../demo/font/Roboto-Regular.ttf")
+ }
+header{
+    height: 90px;
+    background-color:red;
+    align-items:center;
+    display:flex;
+    justify-content:space-around;
+}
+.a{
+ text-decoration: none;
+ color: white;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    gap: 15px;
+    
+
+}
+ /*.home{
+    display: flex;
+    align-items: center;
+    
+} */
+.nav{
+    font-family: Raleway-Regular;
+    font-weight: bold;
+}
+
+.contine{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    height:800px;
+    width: 100%;
+    position: absolute;
+    background-image: url(../demo/image/Layer\ 8.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: roboto;
+    
+}
+.container{
+    width: 80%;
+}
+
+.button{
+    width: 205px;
+    height: 55px;
+    margin-top: 15px;
+    margin-right: 10px;
+    text-align: center;
+    display: inline-block;
+}
+.p{
+   
+    max-width: 405px;
+    align-items: center;
+    font-size: 40px;
+    color: #ffffff;
+    
+}
